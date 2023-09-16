@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 52, 62, 41;
+  --background-start-rgb: 122, 143, 100;
+  --background-end-rgb: 52, 62, 41;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 52, 62, 41;
+    --background-start-rgb: 122, 143, 100;
+    --background-end-rgb: 52, 62, 41;
   }
 }
 
@@ -24,4 +24,53 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  min-height: 100vh;
+}
+
+.logo {
+  background-color: #343e29;
+  color: white;
+  font-size: 26px;
+  margin-top: 2%;
+  padding: 1% 10%;
+  border-radius: 75px;
+}
+
+.video-responsive {
+  overflow: hidden;
+  /* padding-bottom: 56.25%; */
+  /* position: relative; */
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 25%;
+  top: 0;
+  margin-top: 12.5%;
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  position: absolute;
+}
+
+.headerButtons {
+  background-color: #DED2BA;
+  color: rgb(36, 26, 23);
+  margin-top: 2%;
+  font-size: 22px;
+  padding: 0.5% 1%;
+  border-radius: 75px;
+  cursor: pointer;
+  border: none;
+}
+
+.marginHorizontal {
+  margin-left: 7%;
+  margin-right: 7%;
 }

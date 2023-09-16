@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import "../../src/app/globals.css"
+
 
 const YoutubeEmbed = () => (
   <div className="video-responsive">
@@ -9,9 +11,9 @@ const YoutubeEmbed = () => (
       height="315"
       src="https://www.youtube.com/embed/9rlfHRJWV9U"
       title="YouTube video player"
-      frameborder="0"
+      frameBorder="0"
       allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
+      allowFullScreen
     >
     </iframe>
   </div>
