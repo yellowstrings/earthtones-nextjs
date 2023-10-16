@@ -74,3 +74,14 @@ body {
   margin-left: 7%;
   margin-right: 7%;
 }
+
+.footerButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.stickyBottom {
+  position: sticky;
+  bottom: 0;
+}
