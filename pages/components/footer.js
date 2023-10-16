@@ -11,21 +11,24 @@ import "../../src/app/globals.css"
 const Footer = () => {
 
   return (
-    <div className="footerButtons marginHorizontal">
+    <div className="footerButtonContainer ">
       <FaInstagram
         size={30}
         color="white"
         onClick={() => {alert('instagram')}}
+        className="footerButtons"
       />
       <FaTiktok
         size={30}
         color="white"
         onClick={() => {alert('tiktok')}}
+        className="footerButtons"
       />
       <FaGithub
         size={30}
         color="white"
         onClick={() => {alert('github')}}
+        className="footerButtons"
       />
     </div>
   )

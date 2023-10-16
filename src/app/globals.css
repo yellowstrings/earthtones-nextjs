@@ -75,10 +75,14 @@ body {
   margin-right: 7%;
 }
 
-.footerButtons {
+.footerButtonContainer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.footerButtons {
+  margin-right: 2.5%;
 }
 
 .stickyBottom {
