@@ -10,13 +10,17 @@ const About = () => {
 
   //TODO: edit bio
   return (
-    <div className="flex-2 ">
-      <text className=" marginHorizontal aboutText" >
+    <div className="grid about-container">
+    <div className="about">
+      <text >
         about
       </text>
-      <text className=" marginHorizontal aboutText">
+      </div>
+      <div className="marginHorizontal bioText">
+      <text >
       earth tones' compositions are a reflection of their personal experiences and turbulent emotions. haunting strings, raw vocals, and intimacy are the trademark sounds of an earth tones record.
       </text>
+    </div>
     </div>
   )
 }

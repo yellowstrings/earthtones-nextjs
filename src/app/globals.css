@@ -91,11 +91,21 @@ body {
   bottom: 0;
 }
 
-.flex-2 {
-  flex: 2;
-  flex-direction: row;
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 40%;
 }
 
-.aboutText {
+.about-container {
+  margin-left: 15%
+}
+
+.about {
+  color: white;
+}
+
+.bioText {
+  width: 70%;
   color: white;
 }
