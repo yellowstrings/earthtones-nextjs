@@ -53,7 +53,7 @@ body {
 .video-responsive iframe {
   left: 25%;
   top: 0;
-  margin-top: 15%;
+  margin-top: 16.5%;
   height: 50%;
   width: 50%;
   justify-content: center;
@@ -131,4 +131,19 @@ body {
   width: 450px;
   background-color: #EBE4D6;
   border-radius: 50%;
+}
+
+.spacer {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.tourDates {
+  display: flex;
+  text-align: baseline;
+  margin-top: 6%;
+  line-height: 2;
+  color: #EBE4D6;
+  font-size: x-large;
+  font-family: 'DM Serif Display', serif;
 }

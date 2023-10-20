@@ -3,6 +3,7 @@ import Header from '../../pages/components/header.js'
 import Footer from '../../pages/components/footer.js'
 import YoutubeEmbed from "../../pages/components/video.js"
 import About from "../../pages/components/about.js"
+import Tour from "../../pages/components/tour.js"
 
 import { FaInstagram, FaTiktok, FaGithub } from "react-icons/fa";
 
@@ -15,6 +16,9 @@ export default function Home() {
       </div>
       <div >
         <About />
+      </div>
+      <div className="spacer">
+        <Tour />
       </div>
       <div className="stickyBottom">
         <Footer />
