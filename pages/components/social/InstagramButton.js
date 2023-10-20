@@ -12,7 +12,7 @@ const InstagramButton = () => {
     <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="footerButtons">
       <FaInstagram
         size={36}
-        color="#DED2BA"
+        color="#EBE4D6"
       />
     </a>
   );

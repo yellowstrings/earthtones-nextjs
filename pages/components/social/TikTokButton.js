@@ -11,7 +11,7 @@ const TikTokButton = () => {
     <a href={tiktokUrl} target="_blank" rel="noopener noreferrer" className="footerButtons">
       <FaTiktok
         size={36}
-        color="#DED2BA"
+        color="#EBE4D6"
       />
     </a>
   );

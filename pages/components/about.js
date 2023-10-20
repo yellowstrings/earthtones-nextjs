@@ -9,12 +9,15 @@ import "../../src/app/globals.css"
 const About = () => {
 
   //TODO: edit bio
+  //TODO: look for different fonts
   return (
     <div className="grid about-container">
+    <div class="oval">
     <div className="about">
       <text >
-        about
+        a b o u t
       </text>
+    </div>
       </div>
       <div className="marginHorizontal bioText">
       <text >

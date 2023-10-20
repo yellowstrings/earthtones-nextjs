@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Oxygen+Mono&display=swap');
+
 :root {
   --foreground-rgb: 52, 62, 41;
   --background-start-rgb: 122, 143, 100;
@@ -35,8 +37,9 @@ body {
 
 .logo {
   background-color: #343e29;
-  color: white;
-  font-size: 26px;
+  color: #EBE4D6;
+  font-size: x-large;
+  font-family: 'Oxygen Mono', monospace;
   margin-top: 2%;
   padding: 1% 10%;
   border-radius: 75px;
@@ -44,8 +47,6 @@ body {
 
 .video-responsive {
   overflow: hidden;
-  /* padding-bottom: 56.25%; */
-  /* position: relative; */
   height: 0;
 }
 
@@ -60,12 +61,14 @@ body {
 }
 
 .headerButtons {
-  background-color: #DED2BA;
-  color: rgb(36, 26, 23);
+  background-color: #EBE4D6;
+  color: #3D2620;
   margin-top: 2%;
   font-size: 22px;
-  padding: 0.5% 1%;
+  padding: 0.5% 1.5%;
   border-radius: 75px;
+  font-family: 'DM Serif Display', serif;
+  font-size: x-large;
   cursor: pointer;
   border: none;
 }
@@ -94,18 +97,38 @@ body {
 .grid {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 40%;
+  gap: 25%;
 }
 
 .about-container {
-  margin-left: 15%
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .about {
-  color: white;
+  display: flex;
+  color: #3D2620;
+  font-size: xx-large;
+  font-family: 'Oxygen Mono', monospace;
+  font-weight: 400;
+  justify-content: center;
+  margin: auto;
 }
 
 .bioText {
-  width: 70%;
-  color: white;
+  text-align: justify;
+  text-align-last: center;
+  margin-top: 6%;
+  line-height: 2;
+  color: #EBE4D6;
+  font-size: x-large;
+  font-family: 'DM Serif Display', serif;
+}
+
+.oval {
+  display: inline-flex;
+  height: 300px;
+  width: 450px;
+  background-color: #EBE4D6;
+  border-radius: 50%;
 }

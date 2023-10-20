@@ -12,7 +12,7 @@ const GithubButton = () => {
     <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="footerButtons">
       <FaGithub
         size={36}
-        color="#DED2BA"
+        color="#EBE4D6"
       />
     </a>
   );
