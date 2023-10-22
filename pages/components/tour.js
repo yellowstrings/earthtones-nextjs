@@ -12,14 +12,14 @@ const Tour = () => {
   //TODO: look for different fonts
   return (
     <div className="grid about-container">
-    <div class="oval">
-    <div className="about">
+    <div className="oval">
+    <div className="bubble-text">
       <text >
         t o u r
       </text>
     </div>
-      </div>
-      < div >
+    </div>
+      <ul >
       <li className="marginHorizontal tourDates">
       nov 1: barley and vine
       </li>
@@ -29,7 +29,7 @@ const Tour = () => {
       <li className="marginHorizontal tourDates">
       nov 16: uncle lou's
       </li>
-      </div>
+      </ul>
     </div>
   )
 }

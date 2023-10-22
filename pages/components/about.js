@@ -12,8 +12,8 @@ const About = () => {
   //TODO: look for different fonts
   return (
     <div className="grid about-container">
-    <div class="oval">
-    <div className="about">
+    <div className="oval">
+    <div className="bubble-text">
       <text >
         a b o u t
       </text>

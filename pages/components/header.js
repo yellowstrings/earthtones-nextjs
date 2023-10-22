@@ -30,7 +30,9 @@ const Header = () => {
       className="logo"
       onClick={() => {alert('clicked')}}
       >
-        earth tones
+        <text className="logo-text">
+          earth tones
+        </text>
       </button>
       <button
       type="button"
