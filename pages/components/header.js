@@ -13,7 +13,7 @@ const Header = () => {
     <div className="headerContainer">
       <button
       type="button"
-      className="headerButtons marginHorizontal"
+      className="headerButtons marginRight"
       onClick={() => {alert('clicked')}}
       >
         about
@@ -43,7 +43,7 @@ const Header = () => {
       </button>
       <button
       type="button"
-      className="headerButtons marginHorizontal"
+      className="headerButtons marginLeft"
       onClick={() => {alert('clicked')}}
       >
         contact
