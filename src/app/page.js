@@ -9,6 +9,7 @@ import Contact from "../../pages/components/contact.js"
 import { FaInstagram, FaTiktok, FaGithub } from "react-icons/fa";
 
 export default function Home() {
+
   return (
     <main >
       <div >
@@ -22,7 +23,7 @@ export default function Home() {
         <Tour />
         <Contact />
       </div>
-      <div className="stickyBottom">
+      <div className="sticky-bottom">
         <Footer />
       </div>
     </main>

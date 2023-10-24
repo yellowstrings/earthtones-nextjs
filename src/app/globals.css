@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Oxygen+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Kalam&family=Oxygen+Mono&display=swap');
 
 :root {
   --foreground-rgb: 52, 62, 41;
@@ -28,7 +28,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.headerContainer {
+.header-container {
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -67,7 +67,7 @@ body {
   position: absolute;
 }
 
-.headerButtons {
+.clickable-buttons {
   background-color: #EBE4D6;
   color: #3D2620;
   margin-top: 2%;
@@ -80,31 +80,36 @@ body {
   border: none;
 }
 
-.marginHorizontal {
+.margin-horizontal {
   margin-left: 8%;
   margin-right: 8%;
 }
 
-.marginRight {
+.margin-right {
   margin-right: 4%;
 }
 
-.marginLeft {
+.margin-left {
   margin-left: 4%;
 }
 
-.footerButtonContainer {
+.margin-vertical {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.footer-button-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.footerButtons {
+.footer-buttons {
   margin-right: 2.5%;
   margin-bottom: 2.5%;
 }
 
-.stickyBottom {
+.sticky-bottom {
   position: sticky;
   bottom: 0;
 }
@@ -130,7 +135,7 @@ body {
   margin: auto;
 }
 
-.bioText {
+.bio-text {
   text-align: justify;
   text-align-last: center;
   margin-top: 6%;
@@ -148,12 +153,20 @@ body {
   border-radius: 50%;
 }
 
+.rectangle {
+  display: inline-flex;
+  border-radius: 25px;
+  height: 400px;
+  width: 550px;
+  background-color: #44362c;
+}
+
 .spacer {
   margin-top: 10%;
   margin-bottom: 5%;
 }
 
-.tourDates {
+.tour-dates {
   display: flex;
   text-align: baseline;
   margin-top: 6%;
@@ -161,4 +174,43 @@ body {
   color: #EBE4D6;
   font-size: x-large;
   font-family: 'DM Serif Display', serif;
+}
+
+.contact-form {
+  display: flex;
+  margin-top: 10%;
+  width: 50%;
+  margin: 10% auto auto auto;
+  justify-content: center;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+}
+
+.send-button {
+  align-items: center;
+  align-self: center;
+  margin-bottom: 2%;
+}
+
+.contact-text {
+  /* display: flex; */
+  /* margin-bottom: 7%; */
+  font-family: 'Kalam', cursive;
+  color: #EBE4D6;
+  font-size: xxx-large;
+  text-align: center;
+  align-content: center;
+}
+
+.text-box-height {
+  height: 10%;
+}
+
+.message-box {
+  height: 15%;
 }

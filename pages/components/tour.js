@@ -20,13 +20,13 @@ const Tour = () => {
     </div>
     </div>
       <ul >
-      <li className="marginHorizontal tourDates">
+      <li className="margin-horizontal tour-dates">
       nov 1: barley and vine
       </li>
-      <li className="marginHorizontal tourDates">
+      <li className="margin-horizontal tour-dates">
       nov 4-5: makerfaire orlando
       </li>
-      <li className="marginHorizontal tourDates">
+      <li className="margin-horizontal tour-dates">
       nov 16: uncle lou's
       </li>
       </ul>

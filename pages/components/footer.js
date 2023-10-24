@@ -15,7 +15,7 @@ import "../../src/app/globals.css"
 const Footer = () => {
 
   return (
-    <div className="footerButtonContainer">
+    <div className="footer-button-container">
       <InstagramButton />
       <TikTokButton />
       <GithubButton />

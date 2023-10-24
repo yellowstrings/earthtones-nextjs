@@ -9,7 +9,7 @@ const GithubButton = () => {
   const githubUrl = 'https://github.com/yellowstrings'; // Replace with your Instagram URL
 
   return (
-    <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="footerButtons">
+    <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="footer-buttons">
       <FaGithub
         size={36}
         color="#EBE4D6"

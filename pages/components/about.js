@@ -19,7 +19,7 @@ const About = () => {
       </text>
     </div>
       </div>
-      <div className="marginHorizontal bioText">
+      <div className="margin-horizontal bio-text">
       <text >
       earth tones' compositions are a reflection of their personal experiences and turbulent emotions. haunting strings, raw vocals, and intimacy are the trademark sounds of an earth tones record.
       </text>

@@ -1,9 +1,6 @@
 "use client"
 
 import React, { useRef } from "react";
-// import Input from "../Form/Input";
-// import Button from "../Form/Button";
-// import TextArea from "../Form/TextArea";
 
 const Contact = () => {
   const form = useRef();
@@ -15,16 +12,22 @@ const Contact = () => {
   const handleValidation = () => {
     let isValid = true;
 
-    // if (name.current.length <= 0) {
-    //   isValid = false;
-    // }
+    if (name.current.length <= 0) {
+      isValid = false;
+    }
 
-    // if (email.current.length <= 0) {
-    //   isValid = false;
-    // }
+    if (email.current.length <= 0) {
+      isValid = false;
+    }
 
     return isValid;
   };
+
+  const consoleThis = () => {
+    console.log('name', name.current)
+    console.log('email', email.current)
+    console.log('message', message.current)
+  }
 
   // forward email to EmailJS service
   const handleSubmit = async (e) => {
@@ -53,6 +56,11 @@ const Contact = () => {
 
         const json = await res.json();
 
+        // if success
+          // tell the user there was a success
+        // else if error
+          // tell the user there's an error
+
         name.current = null
         email.current = null
         message.current = null
@@ -62,10 +70,37 @@ const Contact = () => {
     }
   };
 
-
   return (
-    <div onClick={handleSubmit}>
-      <input type="text" className="marginHorizontal"/>
+    <div className="rectangle contact-form">
+      <div className="form-inputs ">
+        <text className="contact-text"> Let's Get Creative! </text>
+        <input
+          placeholder="name..."
+          type="text"
+          name="name"
+          className="margin-horizontal margin-vertical text-box-height"
+          onChange={(e) => {
+            name.current = e.target.value
+          }}
+        />
+        <input
+          placeholder="email..."
+          name="email"
+          className="margin-horizontal margin-vertical text-box-height"
+          onChange={(e) => {
+            email.current = e.target.value
+          }}
+          />
+        <textarea
+          placeholder="message..."
+          name="message"
+          className="margin-horizontal margin-vertical message-box"
+          onChange={(e) => {
+            message.current = e.target.value
+          }}
+          />
+        <button className="send-button clickable-buttons form-inputs" onClick={handleSubmit}> Send</button>
+      </div>
     </div>
   );
 };

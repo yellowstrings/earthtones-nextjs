@@ -9,7 +9,7 @@ const InstagramButton = () => {
   const instagramUrl = 'https://www.instagram.com/earthtones.sound'; // Replace with your Instagram URL
 
   return (
-    <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="footerButtons">
+    <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="footer-buttons">
       <FaInstagram
         size={36}
         color="#EBE4D6"

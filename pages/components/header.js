@@ -10,17 +10,17 @@ import "../../src/app/globals.css"
 const Header = () => {
 
   return (
-    <div className="headerContainer">
+    <div className="header-container">
       <button
       type="button"
-      className="headerButtons marginRight"
+      className="clickable-buttons margin-right"
       onClick={() => {alert('clicked')}}
       >
         about
       </button>
       <button
       type="button"
-      className="headerButtons marginHorizontal"
+      className="clickable-buttons margin-horizontal"
       onClick={() => {alert('clicked')}}
       >
         tech
@@ -36,14 +36,14 @@ const Header = () => {
       </button>
       <button
       type="button"
-      className="headerButtons marginHorizontal"
+      className="clickable-buttons margin-horizontal"
       onClick={() => {alert('clicked')}}
       >
         tour
       </button>
       <button
       type="button"
-      className="headerButtons marginLeft"
+      className="clickable-buttons margin-left"
       onClick={() => {alert('clicked')}}
       >
         contact
