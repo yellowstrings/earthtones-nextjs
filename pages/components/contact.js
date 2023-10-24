@@ -15,13 +15,13 @@ const Contact = () => {
   const handleValidation = () => {
     let isValid = true;
 
-    if (name.current.length <= 0) {
-      isValid = false;
-    }
+    // if (name.current.length <= 0) {
+    //   isValid = false;
+    // }
 
-    if (email.current.length <= 0) {
-      isValid = false;
-    }
+    // if (email.current.length <= 0) {
+    //   isValid = false;
+    // }
 
     return isValid;
   };
@@ -32,47 +32,39 @@ const Contact = () => {
 
     let isValidForm = handleValidation();
 
-    console.log('this is the process.env.STATIC_FORM: ', process.env.STATIC_FORM)
+    console.log('this is the process.env.STATIC_FORM: ', process.env.NEXT_PUBLIC_STATIC_FORM)
 
-    // try {
-      // if (isValidForm) {
-      //   const res = await fetch("https://api.staticforms.xyz/submit", {
-      //     method: "POST",
-      //     body: JSON.stringify({
-      //       name: name.current,
-      //       email: email.current,
-      //       message: message.current,
-      //       honeypot: "", // if any value received in this field, form submission will be ignored.
-      //       replyTo: "@", // this will set replyTo of email to email address entered in the form
-      //       accessKey: process.env.NEXT_PUBLIC_STATIC_FORM // get your access key from https://www.staticforms.xyz
-      //     }),
-      //     headers: {
-      //       "Content-Type": "application/json",
-      //     },
-      //   });
+    try {
+      if (isValidForm) {
+        const res = await fetch("https://api.staticforms.xyz/submit", {
+          method: "POST",
+          body: JSON.stringify({
+            name: name.current,
+            email: email.current,
+            message: message.current,
+            honeypot: "", // if any value received in this field, form submission will be ignored.
+            replyTo: "@", // this will set replyTo of email to email address entered in the form
+            accessKey: process.env.NEXT_PUBLIC_STATIC_FORM // get your access key from https://www.staticforms.xyz
+          }),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
 
-    //     const json = await res.json();
+        const json = await res.json();
 
-    //     if (json.success) {
-    //       // Reset form fields
-    //       name.current = null
-    //       email.current = null
-    //       message.current = null
-    //     } else {
-    //       // Reset form fields
-    //       name.current = null
-    //       email.current = null
-    //       message.current = null
-    //     }
-    //   }
-  //   } catch (err) {
-  //     console.log("this is the err in handleSubmit: ", err);
-  //   }
+        name.current = null
+        email.current = null
+        message.current = null
+      }
+    } catch (err) {
+      console.log("this is the err in handleSubmit: ", err);
+    }
   };
 
 
   return (
-    <div >
+    <div onClick={handleSubmit}>
       <input type="text" className="marginHorizontal"/>
     </div>
   );
