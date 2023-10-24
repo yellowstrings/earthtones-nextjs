@@ -12,27 +12,27 @@ const Contact = () => {
   const email = useRef(null)
   const message = useRef(null)
 
-  // const handleValidation = () => {
-  //   let isValid = true;
+  const handleValidation = () => {
+    let isValid = true;
 
-  //   if (name.current.length <= 0) {
-  //     isValid = false;
-  //   }
+    if (name.current.length <= 0) {
+      isValid = false;
+    }
 
-  //   if (email.current.length <= 0) {
-  //     isValid = false;
-  //   }
+    if (email.current.length <= 0) {
+      isValid = false;
+    }
 
-  //   return isValid;
-  // };
+    return isValid;
+  };
 
   // forward email to EmailJS service
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-  //   let isValidForm = handleValidation();
+    let isValidForm = handleValidation();
 
-  //   console.log('this is the process.env.NEXT_PUBLIC_STATIC_FORM: ', process.env.NEXT_PUBLIC_STATIC_FORM)
+    console.log('this is the process.env.STATIC_FORM: ', process.env.STATIC_FORM)
 
     // try {
       // if (isValidForm) {
@@ -68,7 +68,7 @@ const Contact = () => {
   //   } catch (err) {
   //     console.log("this is the err in handleSubmit: ", err);
   //   }
-  // };
+  };
 
 
   return (
