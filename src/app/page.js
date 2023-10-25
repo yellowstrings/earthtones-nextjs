@@ -14,7 +14,7 @@ export default function Home() {
 
 
   return (
-    <main >
+    <main className="vines">
       <div >
         <Header />
         <YoutubeEmbed />

@@ -100,7 +100,7 @@ const Contact = () => {
             message.current = e.target.value
           }}
           />
-        <button className="send-button clickable-buttons form-inputs" onClick={handleSubmit}> Send</button>
+        <button className="clickable-buttons send-button form-inputs" onClick={handleSubmit}> Send</button>
       </div>
     </section>
   );

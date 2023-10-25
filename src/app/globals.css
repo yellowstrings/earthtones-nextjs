@@ -36,7 +36,8 @@ body {
 }
 
 .logo {
-  background-color: #343e29;
+  border: 2px solid #221b16;
+  background-color: #44362c;
   margin-top: 2%;
   width: 20%;
   padding-top: 1%;
@@ -68,8 +69,9 @@ body {
 }
 
 .clickable-buttons {
+  border: 2px solid #44362c;
   background-color: #EBE4D6;
-  color: #3D2620;
+  color: #44362c;
   margin-top: 2%;
   font-size: 22px;
   padding: 0.5% 1.5%;
@@ -77,7 +79,6 @@ body {
   font-family: 'Oxygen Mono', monospace;
   font-size: x-large;
   cursor: pointer;
-  border: none;
 }
 
 .margin-horizontal {
@@ -97,6 +98,15 @@ body {
   margin-top: 4%;
   margin-bottom: 4%;
 }
+
+.vines {
+  background-image: url(../../public/vines-hanging.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
 
 .footer-button-container {
   display: flex;
@@ -128,7 +138,7 @@ body {
 
 .bubble-text {
   display: flex;
-  color: #3D2620;
+  color: #44362c;
   font-size: xx-large;
   font-family: 'Oxygen Mono', monospace;
   font-weight: 400;
@@ -137,6 +147,7 @@ body {
 }
 
 .bio-text {
+  text-shadow: 1px 1px #44362c;
   text-align: justify;
   text-align-last: center;
   margin-top: 6%;
@@ -168,6 +179,7 @@ body {
 }
 
 .tour-dates {
+  text-shadow: 1px 1px #44362c;
   display: flex;
   text-align: baseline;
   margin-top: 6%;
@@ -199,8 +211,7 @@ body {
 }
 
 .contact-text {
-  /* display: flex; */
-  /* margin-bottom: 7%; */
+  text-shadow: 1px 1px #44362c;
   font-family: 'Kalam', cursive;
   color: #EBE4D6;
   font-size: xxx-large;
