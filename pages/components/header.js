@@ -9,12 +9,27 @@ import "../../src/app/globals.css"
 
 const Header = () => {
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section !== "contact") {
+      window.scrollTo({
+        top: section.offsetTop - 50,
+        behavior: 'smooth',
+      });
+    } else {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
     <div className="header-container">
       <button
       type="button"
       className="clickable-buttons margin-right"
-      onClick={() => {alert('clicked')}}
+      onClick={() => scrollToSection('about')}
       >
         about
       </button>
@@ -28,7 +43,6 @@ const Header = () => {
       <button
       type="button"
       className="logo"
-      onClick={() => {alert('clicked')}}
       >
         <text className="logo-text">
           earth tones
@@ -37,14 +51,14 @@ const Header = () => {
       <button
       type="button"
       className="clickable-buttons margin-horizontal"
-      onClick={() => {alert('clicked')}}
+      onClick={() => scrollToSection('tour')}
       >
         tour
       </button>
       <button
       type="button"
       className="clickable-buttons margin-left"
-      onClick={() => {alert('clicked')}}
+      onClick={() => scrollToSection('contact')}
       >
         contact
       </button>

@@ -6,9 +6,12 @@ import About from "../../pages/components/about.js"
 import Tour from "../../pages/components/tour.js"
 import Contact from "../../pages/components/contact.js"
 
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import { FaInstagram, FaTiktok, FaGithub } from "react-icons/fa";
 
 export default function Home() {
+
 
   return (
     <main >

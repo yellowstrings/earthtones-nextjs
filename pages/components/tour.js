@@ -11,7 +11,7 @@ const Tour = () => {
   //TODO: edit bio
   //TODO: look for different fonts
   return (
-    <div className="grid about-container">
+    <section id="tour" className="grid about-container">
     <div className="oval">
     <div className="bubble-text">
       <text >
@@ -30,7 +30,7 @@ const Tour = () => {
       nov 16: uncle lou's
       </li>
       </ul>
-    </div>
+    </section>
   )
 }
 

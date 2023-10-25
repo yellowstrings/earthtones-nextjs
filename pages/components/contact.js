@@ -71,7 +71,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="rectangle contact-form">
+    <section id="contact" className="rectangle contact-form">
+
       <div className="form-inputs ">
         <text className="contact-text"> Let's Get Creative! </text>
         <input
@@ -101,7 +102,7 @@ const Contact = () => {
           />
         <button className="send-button clickable-buttons form-inputs" onClick={handleSubmit}> Send</button>
       </div>
-    </div>
+    </section>
   );
 };
 

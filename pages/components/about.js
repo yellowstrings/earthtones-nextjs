@@ -11,20 +11,22 @@ const About = () => {
   //TODO: edit bio
   //TODO: look for different fonts
   return (
-    <div className="grid about-container">
-    <div className="oval">
-    <div className="bubble-text">
-      <text >
-        a b o u t
-      </text>
-    </div>
+
+    <section id="about" className="grid about-container">
+
+      <div className="oval">
+      <div className="bubble-text">
+        <text >
+          a b o u t
+        </text>
       </div>
-      <div className="margin-horizontal bio-text">
-      <text >
-      earth tones' compositions are a reflection of their personal experiences and turbulent emotions. haunting strings, raw vocals, and intimacy are the trademark sounds of an earth tones record.
-      </text>
-    </div>
-    </div>
+        </div>
+        <div className="margin-horizontal bio-text">
+        <text >
+        earth tones' compositions are a reflection of their personal experiences and turbulent emotions. haunting strings, raw vocals, and intimacy are the trademark sounds of an earth tones record.
+        </text>
+      </div>
+    </section>
   )
 }
 
