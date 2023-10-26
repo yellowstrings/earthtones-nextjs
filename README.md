@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -26,6 +28,25 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+<!-- CONTACT -->
+## Contact
+
+Anisah Majeed - anisahmajeed4@gmail.com
+
+Music: [@earthtones.sound](https://instagram.com/earthtones.sound)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* For the squiggles: [Cosmo]()
+* [Vines]()
+* []()
+
+* <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Deploy on Vercel
 
