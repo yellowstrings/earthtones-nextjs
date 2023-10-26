@@ -40,7 +40,6 @@ const Header = () => {
       <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="clickable-buttons margin-horizontal">
         <button
         type="button"
-        // className="clickable-buttons margin-horizontal"
         >
           tech
         </button>
