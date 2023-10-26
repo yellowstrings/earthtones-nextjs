@@ -4,7 +4,7 @@
 
 ## Why did I build this myself instead of using a website builder?
 
-In addition to being a musician, I am a software engineer! The design in my mind's eye was highly specific and I wanted this to be a true reflection of my artistry. Creative, ambitious projects excite me and I thought this would be an excellent way to demonstrate my engineering capabilities while giving myself the musician website of my dreams. 
+In addition to being a musician, I am a software engineer! The design in my mind's eye was highly specific and I wanted this to be a true reflection of my artistry. Creative, ambitious projects excite me and I thought this would be an excellent way to demonstrate my engineering capabilities while giving myself the musician website of my dreams.
 
 ## How did I build this?
 
@@ -34,21 +34,25 @@ Music: [@earthtones.sound](https://instagram.com/earthtones.sound)
 
 ## To Run Locally
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+# or
+yarn add
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

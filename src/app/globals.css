@@ -181,7 +181,7 @@ body {
 .tour-dates {
   text-shadow: 1px 1px #44362c;
   display: flex;
-  text-align: baseline;
+  text-align: justify;
   margin-top: 6%;
   line-height: 2;
   color: #EBE4D6;
