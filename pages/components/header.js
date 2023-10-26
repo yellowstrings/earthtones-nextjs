@@ -9,6 +9,10 @@ import "../../src/app/globals.css"
 
 const Header = () => {
 
+
+  const githubUrl = "https://github.com/yellowstrings/earthtones-nextjs#readme";
+
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section !== "contact") {
@@ -33,13 +37,14 @@ const Header = () => {
       >
         about
       </button>
-      <button
-      type="button"
-      className="clickable-buttons margin-horizontal"
-      onClick={() => {alert('clicked')}}
-      >
-        tech
-      </button>
+      <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="clickable-buttons margin-horizontal">
+        <button
+        type="button"
+        // className="clickable-buttons margin-horizontal"
+        >
+          tech
+        </button>
+      </a>
       <button
       type="button"
       className="logo"
