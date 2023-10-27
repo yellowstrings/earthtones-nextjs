@@ -191,7 +191,7 @@ body {
 .freeform-square {
   background-image: url(../../public/FreeformSquare.svg);
   background-repeat: no-repeat;
-  background-size: 97% 70%;
+  background-size: 97% 80%;
   display: flex;
   justify-content: center;
   margin: 10% auto 0% auto;
