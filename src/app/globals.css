@@ -130,7 +130,7 @@ body {
 }
 
 .about-container {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   margin-left: 12%;
   margin-right: 12%;
 }
@@ -142,7 +142,8 @@ body {
   font-family: 'Oxygen Mono', monospace;
   font-weight: 400;
   justify-content: center;
-  margin: auto;
+  margin: auto auto auto 55%;
+  white-space: nowrap;
 }
 
 .bio-text {
@@ -164,12 +165,13 @@ body {
   border-radius: 50%;
 }
 
-.rectangle {
-  display: inline-flex;
-  border-radius: 25px;
-  height: 400px;
-  width: 550px;
-  background-color: #44362c;
+.freeform-oval-about {
+  display: flex;
+  background-image: url(../../public/FreeformOval2.svg);
+  background-repeat: no-repeat;
+  background-size: 50% 350%;
+  justify-content: baseline;
+  margin: auto;
 }
 
 .spacer {
@@ -191,7 +193,7 @@ body {
 .freeform-square {
   background-image: url(../../public/FreeformSquare.svg);
   background-repeat: no-repeat;
-  background-size: 97% 80%;
+  background-size: 97% 70%;
   display: flex;
   justify-content: center;
   margin: 10% auto 0% auto;
@@ -200,7 +202,7 @@ body {
 .contact-form {
   display: flex;
   margin-top: 7%;
-  width: 55%;
+  width: 45%;
   margin-bottom: 25%;
   justify-content: center;
   align-content: center;
