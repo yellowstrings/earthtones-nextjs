@@ -22,7 +22,7 @@ const Header = () => {
       });
     } else {
       window.scrollTo({
-        top: section.offsetTop,
+        top: section.offsetTop - 150,
         behavior: 'smooth',
       });
     }

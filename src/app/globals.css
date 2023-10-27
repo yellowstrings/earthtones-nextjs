@@ -107,7 +107,6 @@ body {
   background-size: cover;
 }
 
-
 .footer-button-container {
   display: flex;
   flex-direction: row;
@@ -189,12 +188,22 @@ body {
   font-family: 'DM Serif Display', serif;
 }
 
+.freeform-square {
+  background-image: url(../../public/FreeformSquare.svg);
+  background-repeat: no-repeat;
+  background-size: 97% 70%;
+  display: flex;
+  justify-content: center;
+  margin: 10% auto 0% auto;
+}
+
 .contact-form {
   display: flex;
-  margin-top: 10%;
-  width: 50%;
-  margin: 10% auto auto auto;
+  margin-top: 7%;
+  width: 55%;
+  margin-bottom: 25%;
   justify-content: center;
+  align-content: center;
 }
 
 .form-inputs {
@@ -217,12 +226,13 @@ body {
   font-size: xxx-large;
   text-align: center;
   align-content: center;
+  white-space: nowrap;
 }
 
 .text-box-height {
-  height: 10%;
+  height: 15%;
 }
 
 .message-box {
-  height: 15%;
+  height: 20%;
 }
