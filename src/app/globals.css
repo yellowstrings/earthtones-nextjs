@@ -126,7 +126,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 25%;
+  gap: 35%;
 }
 
 .about-container {
@@ -178,16 +178,16 @@ body {
 }
 
 .freeform-oval-tour {
-  background-image: url(../../public/FreeformOval3.svg);
+  background-image: url(../../public/FreeformOval5.svg);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top 30% left 5%;
+  background-size: 32%;
+  background-position: top 40% left -5%;
+  min-height: 275px;
 }
 
 .tour-dates {
   text-shadow: 1px 1px #44362c;
-  display: flex;
-  text-align: justify;
+  text-align: center;
   margin-top: 6%;
   line-height: 2;
   color: #EBE4D6;
