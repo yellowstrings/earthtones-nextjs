@@ -166,17 +166,22 @@ body {
 }
 
 .freeform-oval-about {
-  display: flex;
   background-image: url(../../public/FreeformOval2.svg);
   background-repeat: no-repeat;
-  background-size: 50% 350%;
-  justify-content: baseline;
-  margin: auto;
+  background-size: 37%;
+  background-position: top 17% left;
 }
 
 .spacer {
   margin-top: 10%;
   margin-bottom: 5%;
+}
+
+.freeform-oval-tour {
+  background-image: url(../../public/FreeformOval3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top 30% left 5%;
 }
 
 .tour-dates {
