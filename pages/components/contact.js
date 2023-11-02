@@ -2,6 +2,8 @@
 
 import React, { useRef } from "react";
 
+import Freeform from "../../public/FreeformSquare2.svg"
+
 const Contact = () => {
   const form = useRef();
 
@@ -71,9 +73,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="rectangle contact-form">
-
-      <div className="form-inputs ">
+    <section id="contact" className="freeform-square">
+    <div id="contact" className="contact-form">
+      <div className="form-inputs">
         <text className="contact-text"> Let's Get Creative! </text>
         <input
           placeholder="name..."
@@ -102,6 +104,7 @@ const Contact = () => {
           />
         <button className="clickable-buttons send-button form-inputs" onClick={handleSubmit}> Send</button>
       </div>
+    </div>
     </section>
   );
 };

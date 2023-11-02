@@ -22,7 +22,7 @@ const Header = () => {
       });
     } else {
       window.scrollTo({
-        top: section.offsetTop,
+        top: section.offsetTop - 150,
         behavior: 'smooth',
       });
     }
@@ -40,7 +40,6 @@ const Header = () => {
       <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="clickable-buttons margin-horizontal">
         <button
         type="button"
-        // className="clickable-buttons margin-horizontal"
         >
           tech
         </button>

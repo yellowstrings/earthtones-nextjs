@@ -107,7 +107,6 @@ body {
   background-size: cover;
 }
 
-
 .footer-button-container {
   display: flex;
   flex-direction: row;
@@ -127,11 +126,11 @@ body {
 .grid {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 25%;
+  gap: 35%;
 }
 
 .about-container {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   margin-left: 12%;
   margin-right: 12%;
 }
@@ -143,7 +142,8 @@ body {
   font-family: 'Oxygen Mono', monospace;
   font-weight: 400;
   justify-content: center;
-  margin: auto;
+  margin: auto auto auto 55%;
+  white-space: nowrap;
 }
 
 .bio-text {
@@ -165,12 +165,11 @@ body {
   border-radius: 50%;
 }
 
-.rectangle {
-  display: inline-flex;
-  border-radius: 25px;
-  height: 400px;
-  width: 550px;
-  background-color: #44362c;
+.freeform-oval-about {
+  background-image: url(../../public/FreeformOval2.svg);
+  background-repeat: no-repeat;
+  background-size: 37%;
+  background-position: top 17% left;
 }
 
 .spacer {
@@ -178,10 +177,17 @@ body {
   margin-bottom: 5%;
 }
 
+.freeform-oval-tour {
+  background-image: url(../../public/FreeformOval5.svg);
+  background-repeat: no-repeat;
+  background-size: 32%;
+  background-position: top 40% left -5%;
+  min-height: 275px;
+}
+
 .tour-dates {
   text-shadow: 1px 1px #44362c;
-  display: flex;
-  text-align: justify;
+  text-align: center;
   margin-top: 6%;
   line-height: 2;
   color: #EBE4D6;
@@ -189,12 +195,22 @@ body {
   font-family: 'DM Serif Display', serif;
 }
 
+.freeform-square {
+  background-image: url(../../public/FreeformSquare.svg);
+  background-repeat: no-repeat;
+  background-size: 97% 70%;
+  display: flex;
+  justify-content: center;
+  margin: 10% auto 0% auto;
+}
+
 .contact-form {
   display: flex;
-  margin-top: 10%;
-  width: 50%;
-  margin: 10% auto auto auto;
+  margin-top: 7%;
+  width: 45%;
+  margin-bottom: 25%;
   justify-content: center;
+  align-content: center;
 }
 
 .form-inputs {
@@ -217,12 +233,13 @@ body {
   font-size: xxx-large;
   text-align: center;
   align-content: center;
+  white-space: nowrap;
 }
 
 .text-box-height {
-  height: 10%;
+  height: 15%;
 }
 
 .message-box {
-  height: 15%;
+  height: 20%;
 }
