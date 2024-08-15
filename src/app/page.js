@@ -15,13 +15,17 @@ export default function Home() {
     <main className="vines">
       <div >
         <Header />
+      </div>
+      <div>
         <YoutubeEmbed />
       </div>
       <div >
         <About />
       </div>
-      <div className="spacer">
+      <div >
         <Tour />
+      </div>
+      <div>
         <Contact />
       </div>
       <div className="sticky-bottom">

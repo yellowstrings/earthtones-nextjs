@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <div className="header-container">
+    <div className='header-container'>
       <button
       type="button"
       className="clickable-buttons margin-right"
