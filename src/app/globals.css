@@ -30,13 +30,9 @@ body {
 
 .header-container {
   display: flex;
-  /* flex: 5; */
-  /* justify-content: center; */
-  align-items: baseline;
-  align-self: center;
-  align-content: center;
-  /* min-height: 10vh; */
-  /* width: 80vw; */
+  justify-content: space-evenly; 
+  align-items: center; 
+  width: 100%;            /* Full width of the parent container */
 }
 
 .logo {
@@ -77,7 +73,7 @@ body {
   background-color: #EBE4D6;
   color: #44362c;
   margin-top: 2%;
-  font-size: 22px;
+  font-size: 20px;
   padding: 0.5% 1.5%;
   border-radius: 75px;
   font-family: 'Oxygen Mono', monospace;
@@ -105,7 +101,6 @@ body {
 
 .vines {
   background-image: url(../../public/vines-hanging.svg);
-  width: 100vw;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

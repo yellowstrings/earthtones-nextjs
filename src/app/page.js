@@ -25,7 +25,7 @@ export default function Home() {
       <div >
         <Tour />
       </div>
-      <div>
+      <div >
         <Contact />
       </div>
       <div className="sticky-bottom">

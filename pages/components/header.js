@@ -32,12 +32,14 @@ const Header = () => {
     <div className='header-container'>
       <button
       type="button"
-      className="clickable-buttons margin-right"
+      className="clickable-buttons"
       onClick={() => scrollToSection('about')}
       >
         about
       </button>
-      <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="clickable-buttons margin-horizontal">
+      <a href={githubUrl} target="_blank" rel="noopener noreferrer" 
+      className="clickable-buttons"
+      >
         <button
         type="button"
         >
@@ -54,14 +56,14 @@ const Header = () => {
       </button>
       <button
       type="button"
-      className="clickable-buttons margin-horizontal"
+      className="clickable-buttons"
       onClick={() => scrollToSection('tour')}
       >
         tour
       </button>
       <button
       type="button"
-      className="clickable-buttons margin-left"
+      className="clickable-buttons"
       onClick={() => scrollToSection('contact')}
       >
         contact
