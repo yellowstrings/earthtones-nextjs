@@ -46,26 +46,38 @@ body {
 }
 
 .logo-text {
-  text-align: justify;
+  text-align: center;
   color: #EBE4D6;
   font-size: large;
   font-family: 'Oxygen Mono', monospace;
   width: 100%;
 }
 
+.video-container {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr; /* Single column */
+  grid-template-rows: 1fr; /* Single row */
+  justify-items: center; /* Center content horizontally */
+  align-items: baseline; /* Align content vertically */
+  height: 100%; /* Make the container full height to center vertically */
+  }
+
 .video-responsive {
-  overflow: hidden;
+  display: grid;
+  width: 90%; /* Set a minimum width */
+  padding-bottom: 56.25%; /* Aspect ratio (16:9) */
+  position: relative;
   height: 0;
+  overflow: hidden;
 }
 
 .video-responsive iframe {
-  left: 25vw;
-  top: 0;
-  margin-top: 16.5%;
-  height: 50vh;
-  width: 50vw;
-  justify-content: center;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
 }
 
 .clickable-buttons {
@@ -129,7 +141,7 @@ body {
 }
 
 .about-container {
-  /* margin-top: 5%; */
+  margin-top: 10%;
   margin-left: 12%;
   margin-right: 12%;
 }
@@ -137,7 +149,7 @@ body {
 .bubble-text {
   display: flex;
   color: #44362c;
-  font-size: xx-large;
+  font-size: 3vmin;
   font-family: 'Oxygen Mono', monospace;
   font-weight: 400;
   justify-content: center;
@@ -147,12 +159,11 @@ body {
 
 .bio-text {
   text-shadow: 1px 1px #44362c;
-  text-align: justify;
-  text-align-last: center;
-  margin-top: 6%;
+  text-align: center;
+  margin-top: 10%;
   line-height: 2;
   color: #EBE4D6;
-  font-size: x-large;
+  font-size: 3vmin;
   font-family: 'DM Serif Display', serif;
 }
 
@@ -164,25 +175,25 @@ body {
   border-radius: 50%;
 }
 
-.freeform-oval-about {
+/* .freeform-oval-about {
   background-image: url(../../public/FreeformOval2.svg);
   background-repeat: no-repeat;
   background-size: 37%;
   background-position: top 17% left;
-}
+} */
 
 .spacer {
   margin-top: 10%;
   margin-bottom: 5%;
 }
 
-.freeform-oval-tour {
+/* .freeform-oval-tour {
   background-image: url(../../public/FreeformOval5.svg);
   background-repeat: no-repeat;
   background-size: 32%;
   background-position: top 40% left -5%;
   min-height: 275px;
-}
+} */
 
 .tour-dates {
   text-shadow: 1px 1px #44362c;
@@ -190,18 +201,18 @@ body {
   margin-top: 6%;
   line-height: 2;
   color: #EBE4D6;
-  font-size: x-large;
+  font-size: 3vmin;
   font-family: 'DM Serif Display', serif;
 }
 
-.freeform-square {
+/* .freeform-square {
   background-image: url(../../public/FreeformSquare.svg);
   background-repeat: no-repeat;
   background-size: 97% 70%;
   display: flex;
   justify-content: center;
   margin: 10% auto 0% auto;
-}
+} */
 
 .contact-form {
   display: flex;

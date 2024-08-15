@@ -1,7 +1,6 @@
 "use client"
 
-import React, { useRef } from "react";
-import { Button } from '@mui/material';
+import React, { useRef, button } from "react";
 
 
 import "../../src/app/globals.css"
@@ -38,7 +37,7 @@ const Header = () => {
         about
       </button>
       <a href={githubUrl} target="_blank" rel="noopener noreferrer" 
-      className="clickable-buttons"
+        className="clickable-buttons"
       >
         <button
         type="button"
