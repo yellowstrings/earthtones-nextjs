@@ -10,7 +10,7 @@ const About = () => {
 
   return (
     <section id="about">
-      <div className="about-container">
+      <div className="section-container">
         <div className="label-text">
           <text >
             a b o u t

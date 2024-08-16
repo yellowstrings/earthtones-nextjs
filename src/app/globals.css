@@ -141,7 +141,7 @@ body {
   bottom: 0;
 }
 
-.about-container {
+.section-container {
   margin: auto;
 }
 
@@ -172,14 +172,34 @@ body {
   margin-bottom: 4%;
 }
 
-.tour-dates {
-  text-shadow: 1px 1px #44362c;
-  text-align: center;
-  margin-top: 6%;
-  line-height: 2;
-  color: #EBE4D6;
-  font-size: 3vmin;
-  font-family: 'DM Serif Display', serif;
+.music-responsive {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Double column */
+  grid-template-rows: 1fr; /* Single row */
+  justify-items: center; /* Center content horizontally */
+  align-items: baseline; /* Align content vertically */
+  width: 70%;
+  margin: 7% auto;
+}
+
+.spotify-responsive {
+  max-width: 80vw;
+  height: 50vh;
+  justify-content: center;
+}
+
+.spotify-responsive iframe {
+  max-width: 100%;
+}
+
+.apple-responsive {
+  max-width: 80vw;
+  height: 50vh;
+  justify-content: center;
+}
+
+.apple-responsive iframe {
+  max-width: 100%;
 }
 
 .contact-form {
