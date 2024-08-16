@@ -6,16 +6,16 @@ import { Button } from '@mui/material';
 
 import "../../src/app/globals.css"
 
-const Tour = () => {
+const Music = () => {
 
   //TODO: edit bio
   //TODO: look for different fonts
   return (
-    <section id="tour" >
-    <div className="grid about-container freeform-oval-tour">
-    <div className="bubble-text">
+    <section id="music" >
+    <div className="about-container">
+    <div className="label-text">
       <text >
-        t o u r
+        m u s i c
       </text>
     </div>
       <ul >
@@ -28,4 +28,4 @@ const Tour = () => {
   )
 }
 
-export default Tour;
+export default Music;

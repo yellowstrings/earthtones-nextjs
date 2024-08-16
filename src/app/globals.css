@@ -39,7 +39,7 @@ body {
   border: 2px solid #221b16;
   background-color: #44362c;
   margin-top: 2%;
-  width: 20vw;
+  width: 20%;
   padding-top: 1%;
   padding-bottom: 1%;
   border-radius: 75px;
@@ -48,7 +48,7 @@ body {
 .logo-text {
   text-align: center;
   color: #EBE4D6;
-  font-size: large;
+  font-size: 3vmin;
   font-family: 'Oxygen Mono', monospace;
   width: 100%;
 }
@@ -83,21 +83,26 @@ body {
 }
 
 .clickable-buttons {
+  display: flex;
   border: 2px solid #44362c;
   background-color: #EBE4D6;
-  color: #44362c;
   margin-top: 2%;
-  font-size: 20px;
   padding: 0.5% 1.5%;
   border-radius: 75px;
-  font-family: 'Oxygen Mono', monospace;
-  font-size: large;
   cursor: pointer;
+  align-items: center;
+}
+
+.header-font {  
+  font-size: 3vmin;
+  font-family: 'Oxygen Mono', monospace;
+  color: #44362c;
+  text-align: center;
 }
 
 .margin-horizontal {
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .margin-right {
@@ -136,33 +141,27 @@ body {
   bottom: 0;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 35%;
-}
-
 .about-container {
-  margin-top: 10%;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin: auto;
 }
 
-.bubble-text {
-  display: flex;
+.label-text {
+  display: grid;
+  margin: 5% auto;
+  justify-content: center;
+  width: 30%;
+  border-radius: 25px;
   color: #44362c;
+  background-color: #EBE4D6;
   font-size: 3vmin;
   font-family: 'Oxygen Mono', monospace;
   font-weight: 400;
-  justify-content: center;
-  margin: auto auto auto 55%;
-  white-space: nowrap;
 }
 
 .bio-text {
   text-shadow: 1px 1px #44362c;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   line-height: 2;
   color: #EBE4D6;
   font-size: 3vmin;
@@ -170,8 +169,7 @@ body {
 }
 
 .spacer {
-  margin-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 .tour-dates {

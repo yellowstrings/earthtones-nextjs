@@ -34,17 +34,19 @@ const Header = () => {
       className="clickable-buttons"
       onClick={() => scrollToSection('about')}
       >
-        about
+        <text className='header-font'>
+          about
+        </text>
       </button>
-      <a href={githubUrl} target="_blank" rel="noopener noreferrer" 
-        className="clickable-buttons"
-      >
-        <button
+      <button
         type="button"
-        >
+        className="clickable-buttons"
+        onClick={() => window.open(githubUrl, "_blank", "noopener,noreferrer")}
+      >
+        <text className='header-font'>
           tech
-        </button>
-      </a>
+        </text>
+      </button>
       <button
       type="button"
       className="logo"
@@ -56,16 +58,20 @@ const Header = () => {
       <button
       type="button"
       className="clickable-buttons"
-      onClick={() => scrollToSection('tour')}
+      onClick={() => scrollToSection('music')}
       >
-        tour
+        <text className='header-font'>
+          music
+        </text>
       </button>
       <button
       type="button"
       className="clickable-buttons"
       onClick={() => scrollToSection('contact')}
       >
-        contact
+        <text className='header-font'>
+          contact
+        </text>
       </button>
     </div>
   )
