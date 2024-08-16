@@ -54,13 +54,14 @@ body {
 }
 
 .video-container {
-  margin-top: 10%;
   display: grid;
   grid-template-columns: 1fr; /* Single column */
   grid-template-rows: 1fr; /* Single row */
   justify-items: center; /* Center content horizontally */
   align-items: baseline; /* Align content vertically */
-  height: 100%; /* Make the container full height to center vertically */
+  width: 70%;
+  /* height: 100%; */
+  margin: 7% auto;
   }
 
 .video-responsive {
@@ -70,6 +71,7 @@ body {
   position: relative;
   height: 0;
   overflow: hidden;
+  height: 100%;
 }
 
 .video-responsive iframe {
@@ -167,33 +169,10 @@ body {
   font-family: 'DM Serif Display', serif;
 }
 
-.oval {
-  display: inline-flex;
-  height: 300px;
-  width: 450px;
-  background-color: #EBE4D6;
-  border-radius: 50%;
-}
-
-/* .freeform-oval-about {
-  background-image: url(../../public/FreeformOval2.svg);
-  background-repeat: no-repeat;
-  background-size: 37%;
-  background-position: top 17% left;
-} */
-
 .spacer {
   margin-top: 10%;
   margin-bottom: 5%;
 }
-
-/* .freeform-oval-tour {
-  background-image: url(../../public/FreeformOval5.svg);
-  background-repeat: no-repeat;
-  background-size: 32%;
-  background-position: top 40% left -5%;
-  min-height: 275px;
-} */
 
 .tour-dates {
   text-shadow: 1px 1px #44362c;
@@ -204,15 +183,6 @@ body {
   font-size: 3vmin;
   font-family: 'DM Serif Display', serif;
 }
-
-/* .freeform-square {
-  background-image: url(../../public/FreeformSquare.svg);
-  background-repeat: no-repeat;
-  background-size: 97% 70%;
-  display: flex;
-  justify-content: center;
-  margin: 10% auto 0% auto;
-} */
 
 .contact-form {
   display: flex;
