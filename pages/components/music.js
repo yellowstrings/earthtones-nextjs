@@ -23,7 +23,7 @@ const Music = () => {
         className='spotify-responsive'
         src="https://open.spotify.com/embed/album/70fhPmOTF5MjPlNRSZey6I?utm_source=generator&theme=0" 
         frameBorder="0" 
-        allowfullscreen="" 
+        allowFullScreen="" 
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
         loading="lazy"
       >
@@ -31,7 +31,7 @@ const Music = () => {
       <iframe
         className="apple-responsive"
         allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
-        frameborder="0" 
+        frameBorder="0" 
         sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
         src="https://embed.music.apple.com/us/album/pained-smiles-ep/1728240910"
       >

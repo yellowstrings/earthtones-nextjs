@@ -2,7 +2,6 @@
 
 import React, { useRef } from "react";
 import { Card, TextField } from "@mui/material";
-import { Margarine } from "next/font/google";
 
 const Contact = () => {
   const form = useRef();
@@ -75,7 +74,7 @@ const Contact = () => {
   const style = {
     backgroundColor: "#EBE4D6",
     color: "#44362c",
-    marginBottom: "5%"
+    borderRadius: 10
   }
 
   return (
@@ -85,8 +84,9 @@ const Contact = () => {
         <text className="contact-text"> Let's Get Creative! </text>
           <TextField 
             id="filled-name" 
-            label="name..."
+            label="name"
             inputProps={{ style: style }}
+            margin="normal"
             variant="filled" 
             onChange={(e) => {
               name.current = e.target.value
@@ -94,20 +94,22 @@ const Contact = () => {
             />
           <TextField 
             id="filled-email" 
-            label="email..."
-            variant="filled" 
+            label="email"
+            margin="normal"
+            variant="outlined" 
             inputProps={{ style: style }}
             onChange={(e) => {
-              name.current = e.target.value
+              email.current = e.target.value
             }}
             />
           <TextField 
             id="filled-message" 
-            label="message..."
+            label="message"
             inputProps={{ style: style }}
+            margin="normal"
             variant="filled" 
             onChange={(e) => {
-              name.current = e.target.value
+              message.current = e.target.value
             }}
           />
         <button className="send-button form-inputs" onClick={handleSubmit}> Send</button>
