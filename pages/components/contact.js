@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useRef } from "react";
-
-import Freeform from "../../public/FreeformSquare2.svg"
+import { Card, TextField } from "@mui/material";
+import { Margarine } from "next/font/google";
 
 const Contact = () => {
   const form = useRef();
@@ -72,37 +72,45 @@ const Contact = () => {
     }
   };
 
+  const style = {
+    backgroundColor: "#EBE4D6",
+    color: "#44362c",
+    marginBottom: "5%"
+  }
+
   return (
-    <section id="contact" className="freeform-square">
+    <section id="contact" >
     <div id="contact" className="contact-form">
       <div className="form-inputs">
         <text className="contact-text"> Let's Get Creative! </text>
-        <input
-          placeholder="name..."
-          type="text"
-          name="name"
-          className="margin-horizontal margin-vertical text-box-height"
-          onChange={(e) => {
-            name.current = e.target.value
-          }}
-        />
-        <input
-          placeholder="email..."
-          name="email"
-          className="margin-horizontal margin-vertical text-box-height"
-          onChange={(e) => {
-            email.current = e.target.value
-          }}
+          <TextField 
+            id="filled-name" 
+            label="name..."
+            inputProps={{ style: style }}
+            variant="filled" 
+            onChange={(e) => {
+              name.current = e.target.value
+            }}
+            />
+          <TextField 
+            id="filled-email" 
+            label="email..."
+            variant="filled" 
+            inputProps={{ style: style }}
+            onChange={(e) => {
+              name.current = e.target.value
+            }}
+            />
+          <TextField 
+            id="filled-message" 
+            label="message..."
+            inputProps={{ style: style }}
+            variant="filled" 
+            onChange={(e) => {
+              name.current = e.target.value
+            }}
           />
-        <textarea
-          placeholder="message..."
-          name="message"
-          className="margin-horizontal margin-vertical message-box"
-          onChange={(e) => {
-            message.current = e.target.value
-          }}
-          />
-        <button className="clickable-buttons send-button form-inputs" onClick={handleSubmit}> Send</button>
+        <button className="send-button form-inputs" onClick={handleSubmit}> Send</button>
       </div>
     </div>
     </section>
