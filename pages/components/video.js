@@ -7,8 +7,6 @@ import "../../src/app/globals.css"
 const YoutubeEmbed = () => (
   <div className="video-responsive">
     <iframe
-      width="560"
-      height="315"
       src="https://www.youtube.com/embed/9rlfHRJWV9U"
       title="YouTube video player"
       frameBorder="0"
