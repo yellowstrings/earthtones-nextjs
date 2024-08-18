@@ -16,7 +16,7 @@ const About = () => {
             a b o u t
           </text>
         </div>
-        <div className="margin-horizontal bio-text">
+        <div className="margin-horizontal body-text">
           <p className="spacer">
           To be a musician is almost an intimate act, to cut oneself open and shill the contents. Then again, perhaps that's what drew earth tones to it in the first place. Always having had trouble finding themself, it proved a release from the self-imposed rigidity of morality, conscience and the all-consuming fear of being a burden. Putting oneself first, a recurring theme of their 2024 debut EP pained smiles, has never come easily to earth tones— yet, after amassing a humble following from performing in a series of coffee shops and bars in their hometown of Orlando, FL, they took a leap of faith in moving to the flowering, vibrant music scene of Austin, Texas. However, as the journey unfolds, and as they gradually come to terms with the enormous (1140 miles, to be exact) move, it has only led to a massive efflorescence of the soul— and, ultimately, their music.           
           </p>
