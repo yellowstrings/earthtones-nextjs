@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.7",
     "autoprefixer": "10.4.15",
+    "dotenv": "^16.4.5",
     "next": "14.0.0",
     "next-share": "^0.25.0",
     "node": "^22.6.0",

@@ -1,10 +1,10 @@
 "use client"
 
 import React, { useRef } from "react";
-import { Card, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 
 const Contact = () => {
-  const form = useRef();
+  // const form = useRef();
 
   const name = useRef(null)
   const email = useRef(null)
@@ -20,6 +20,7 @@ const Contact = () => {
     if (email.current.length <= 0) {
       isValid = false;
     }
+    console.log('isValid', isValid)
 
     return isValid;
   };
@@ -32,6 +33,7 @@ const Contact = () => {
 
   // forward email to EmailJS service
   const handleSubmit = async (e) => {
+    consoleThis();
     e.preventDefault();
 
     let isValidForm = handleValidation();
@@ -56,6 +58,7 @@ const Contact = () => {
         });
 
         const json = await res.json();
+        console.log('json', json)
 
         // if success
           // tell the user there was a success
@@ -79,7 +82,7 @@ const Contact = () => {
 
   return (
     <section id="contact" >
-    <div id="contact" className="contact-form">
+    <form id="contact" className="contact-form">
       <div className="form-inputs">
         <text className="contact-text"> Let's Get Creative! </text>
           <TextField 
@@ -96,7 +99,7 @@ const Contact = () => {
             id="filled-email" 
             label="email"
             margin="normal"
-            variant="outlined" 
+            variant="filled" 
             inputProps={{ style: style }}
             onChange={(e) => {
               email.current = e.target.value
@@ -114,7 +117,7 @@ const Contact = () => {
           />
         <button className="send-button form-inputs" onClick={handleSubmit}> Send</button>
       </div>
-    </div>
+    </form>
     </section>
   );
 };
