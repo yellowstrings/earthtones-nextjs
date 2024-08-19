@@ -6,6 +6,11 @@
 
 In addition to being a musician, I am a software engineer! The design in my mind's eye was highly specific and I wanted this to be a true reflection of my artistry. Creative, ambitious projects excite me and I thought this would be an excellent way to demonstrate my engineering capabilities in addition to creating a website that represents me as a musician.
 
+<!-- VIEW --> 
+## Visit the Site!
+
+The published website can be found at [earthtonesmusic.us](http://earthtonesmusic.us)
+
 ## How did I build this?
 
 * [![Figma][Figma]][Figma-url]
@@ -13,11 +18,6 @@ In addition to being a musician, I am a software engineer! The design in my mind
 * [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- VIEW --> 
-## Visit the Site!
-
-The published website can be found at [earthtonesmusic.us](http://earthtonesmusic.us)
 
 <!-- CONTACT -->
 ## Message me!
