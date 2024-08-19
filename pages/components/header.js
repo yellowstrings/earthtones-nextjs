@@ -1,7 +1,6 @@
 "use client"
 
-import React, { useRef } from "react";
-import { Button } from '@mui/material';
+import React, { useRef, button } from "react";
 
 
 import "../../src/app/globals.css"
@@ -29,21 +28,25 @@ const Header = () => {
   };
 
   return (
-    <div className="header-container">
+    <div className='header-container'>
       <button
       type="button"
-      className="clickable-buttons margin-right"
+      className="clickable-buttons"
       onClick={() => scrollToSection('about')}
       >
-        about
+        <text className='header-font'>
+          about
+        </text>
       </button>
-      <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="clickable-buttons margin-horizontal">
-        <button
+      <button
         type="button"
-        >
+        className="clickable-buttons"
+        onClick={() => window.open(githubUrl, "_blank", "noopener,noreferrer")}
+      >
+        <text className='header-font'>
           tech
-        </button>
-      </a>
+        </text>
+      </button>
       <button
       type="button"
       className="logo"
@@ -54,17 +57,21 @@ const Header = () => {
       </button>
       <button
       type="button"
-      className="clickable-buttons margin-horizontal"
-      onClick={() => scrollToSection('tour')}
+      className="clickable-buttons"
+      onClick={() => scrollToSection('music')}
       >
-        tour
+        <text className='header-font'>
+          music
+        </text>
       </button>
       <button
       type="button"
-      className="clickable-buttons margin-left"
+      className="clickable-buttons"
       onClick={() => scrollToSection('contact')}
       >
-        contact
+        <text className='header-font'>
+          contact
+        </text>
       </button>
     </div>
   )
