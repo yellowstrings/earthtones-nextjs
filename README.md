@@ -1,19 +1,23 @@
 <a name="readme-top"></a>
 
-# Welcome to my Passion Project!
+# Welcome to my World!
 
 ## Why did I build this myself instead of using a website builder?
 
-In addition to being a musician, I am a software engineer! The design in my mind's eye was highly specific and I wanted this to be a true reflection of my artistry. Creative, ambitious projects excite me and I thought this would be an excellent way to demonstrate my engineering capabilities while giving myself the musician website of my dreams.
+In addition to being a musician, I am a software engineer! The design in my mind's eye was highly specific and I wanted this to be a true reflection of my artistry. Creative, ambitious projects excite me and I thought this would be an excellent way to demonstrate my engineering capabilities in addition to creating a website that represents me as a musician.
 
 ## How did I build this?
 
 * [![Figma][Figma]][Figma-url]
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [Static Forms]([Static-Forms-url])
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- VIEW --> 
+## Visit the Site!
+
+The published website can be found at [earthtonesmusic.us](http://earthtonesmusic.us)
 
 <!-- CONTACT -->
 ## Message me!
@@ -21,15 +25,19 @@ In addition to being a musician, I am a software engineer! The design in my mind
 Anisah Majeed - anisahmajeed4@gmail.com
 
 Music: [@earthtones.sound](https://instagram.com/earthtones.sound)
+Spotify: [earth tones](https://open.spotify.com/artist/7IylhYTsnn5mIBdIRsi2lR?si=RY9pWVtcS1OLF1SA8FaJbw)
+YouTube: [earth tones on YouTube](https://youtube.com/@anisahmajeed7910?si=e7WY6mZoOqxdKCMR)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Contributing Artists
 
 * [Vines](https://www.rawpixel.com/)
-* [Freeform Shapes](https://anthonydarts.myportfolio.com/home)
+
+## Feedback and Encouragement
+
+* [Jack Witherell](http://www.jwitherell.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,4 +88,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 [React-url]: https://reactjs.org/
 [Figma]: https://img.shields.io/badge/Figma-FFFFFF?style=for-the-badge&logo=figma&logoColor=F24E1E
 [Figma-url]: https://www.figma.com/
-[Static-Forms-url]: https://www.staticforms.xyz/
