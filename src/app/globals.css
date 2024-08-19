@@ -117,11 +117,21 @@ body {
   margin-bottom: 4%;
 }
 
+.margin-top {
+  margin-top: 4%;
+}
+
 .vines {
   background-image: url(../../public/vines-hanging.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+}
+
+.footer-text {
+  color: #EBE4D6;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer-button-container {
@@ -163,8 +173,8 @@ body {
   margin-top: 5%;
   line-height: 2;
   color: #EBE4D6;
-  font-size: 3vmin;
-  font-family: 'Helvetica', serif;
+  font-size: 2.5vmin;
+  font-family: 'Fira Mono', monospace;
 }
 
 .email-text {
@@ -260,4 +270,12 @@ body {
   font-size: 3vmin;
   text-align: center;
   margin: auto;
+}
+
+.readable-background-light {
+  background-color: rgba(96,113,78,0.5);
+}
+
+.readable-background-dark {
+  background-color: rgba(85,100,69,0.5)
 }

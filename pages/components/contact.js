@@ -19,6 +19,9 @@ const Contact = () => {
           >
               anisahmajeed4@gmail.com
           </a>
+          <p className="margin-vertical margin-horizontal">
+            For upcoming releases and live shows, follow my social media using the footer links below!
+          </p>
         </div>
       </div>
     </div>
