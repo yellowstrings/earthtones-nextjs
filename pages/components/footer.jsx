@@ -2,9 +2,9 @@
 
 import React from "react";
 
- import InstagramButton from "./social/InstagramButton.js";
- import TikTokButton from "./social/TikTokButton.js";
- import GithubButton from "./social/GithubButton.js";
+ import InstagramButton from "./social/InstagramButton.jsx";
+ import TikTokButton from "./social/TikTokButton.jsx";
+ import GithubButton from "./social/GithubButton.jsx";
 
 import "../../src/app/globals.css"
 

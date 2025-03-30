@@ -123,9 +123,10 @@ body {
 
 .vines {
   background-image: url(../../public/vines-hanging.svg);
-  background-repeat: no-repeat;
-  background-position: top;
+  width: 100%;
+  height: 100vh;
   background-size: cover;
+  background-position: center;
 }
 
 .footer-text {

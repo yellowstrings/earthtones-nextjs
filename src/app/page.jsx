@@ -1,10 +1,10 @@
 // import Image from 'next/image'
-import Header from '../../pages/components/header.js'
-import Footer from '../../pages/components/footer.js'
-import YoutubeEmbed from "../../pages/components/video.js"
-import About from "../../pages/components/about.js"
-import Music from "../../pages/components/music.js"
-import Contact from "../../pages/components/contact.js"
+import Header from '../../pages/components/header.jsx'
+import Footer from '../../pages/components/footer.jsx'
+import YoutubeEmbed from "../../pages/components/video.jsx"
+import About from "../../pages/components/about.jsx"
+import Music from "../../pages/components/music.jsx"
+import Contact from "../../pages/components/contact.jsx"
 
 export default function Home() {
 
